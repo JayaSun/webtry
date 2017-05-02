@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  background-color: #FFF;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+
+.matrix{
+  margin:0px auto;
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+
+.circle {
+ border-radius: 50%;
+ width: 250px;
+ height: 250px; 
+ margin: 100px;
+ padding-top: 50px;
+ display: inline-block;
+}
+
+ .c1 {
+ background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+ }
+ 
+ .c2 {
+ background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+ }
+ 
+ .c3 {
+ background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ }
+ 
+ .c4{
+ background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+ }
+ 
+ .c5 {
+ background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+ } 
+ .c6 {
+ background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+ }
+ 
+ .c7 {
+ background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+ }
+ 
+ .c8 {
+ background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+ }
+ 
+ .c9 {
+ background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+ }
+ 
+ 
+
